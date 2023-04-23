@@ -1,4 +1,4 @@
-<!-- <header class="header">
+<header class="header">
 	<nav class="navbar">
 		<a href="/">Home</a>
 		<a href="/recipes">Recipes</a>
@@ -11,9 +11,9 @@
 	<div class="container">
 		<p>&copy; Christian Soucy 2023<p>
 	</div>
-</footer> -->
+</footer>
 
-<script>
+<!-- <script>
 	// import '$svelte_API\src\files\global.css';
 	// import Nav from '$svelte_API\src\files\nav.svelte';
 	import Footer from '$svelte_API\src\files\footer.svelte';
@@ -25,4 +25,4 @@
 	<slot />
   </main>
   
-  <Footer />
+  <Footer /> -->
