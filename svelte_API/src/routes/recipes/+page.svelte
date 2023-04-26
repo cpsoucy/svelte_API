@@ -29,15 +29,14 @@
 <article>
   {#each food as { idMeal, strMeal, strMealThumb, strCategory }}
     <figure>
-      <img src="https://www.themealdb.com/images/media/meals/1529444113.jpg" alt="random_recipe"> <!-- first trying to get any random meal to output info; -->
+      <img src="https://www.themealdb.com/images/media/meals/{strMealThumb}.jpg" alt="random_recipe"> <!-- first trying to get any random meal to output info; -->
+      <!-- <img src="https://www.themealdb.com/images/media/meals/1529444113.jpg" alt="random_recipe"> -->
       <!-- <img src={strMealThumb} alt="random_recipe"> -->
       <!-- <figcaption>{strMeal} ({strCategory})</figcaption> -->
       <!-- <figcaption>Meal ID for this meal is: {idMeal}</figcaption> -->
     </figure>
   {/each}
 </article>
-
-
 
 <style>
   /* article {

@@ -27,7 +27,7 @@
 
 export async function load({fetch}) {  
   const url = "https://www.themealdb.com/api/json/v1/1/random.php";
-  try { //troubleshooting;
+  try { //using try catch block for troubleshooting;
       const f_rq = await fetch(url);
       const f_res = await f_rq.json();
       // console.log(f_res); //troubleshooting;
